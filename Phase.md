@@ -55,9 +55,8 @@ Backend fully → Frontend fully. No parallel work.
 - Swagger/OpenAPI: swaggerJsdoc reads route JSDoc comments, mounted at /api-docs (annotated core routes; rest covered via Postman collection)
 - S3 product image upload (bonus): multer memoryStorage → S3Client PutObjectCommand, PATCH /products/:uuid/image
 
-### Phase B6 — Later / Bonus (explicitly deferred) ⬜
-- Docker (docker-compose: app + mongo + redis)
-- Kafka (event pipeline — only if time permits after core is done)
+### Phase B6 — Later / Bonus (explicitly deferred) ✅
+- Docker added (docker-compose: app + mongo + redis)
 ---
 
 ## FRONTEND PHASES (starts after backend core is functional)
@@ -81,7 +80,7 @@ Backend fully → Frontend fully. No parallel work.
 ### Phase F4 — Stock Management UI ✅
 - StockAdjustModal: increase/reduce with frontend + backend double guard against negative stock, toasts for success/error
 
-### Phase F5 — Polish ⬜
+### Phase F5 — Polish ✅
 - Loading states, empty states, responsive layout, form validation, dark mode (bonus)
 
 ---
