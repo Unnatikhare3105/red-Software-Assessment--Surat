@@ -93,3 +93,5 @@ Backend fully → Frontend fully. No parallel work.
 - Node 20 LTS targeted via `package.json` engines field, even though the dev container itself runs Node 22 — no functional impact, just a deployment/consistency lock.
 - Path aliases (`@config/*` etc.) were considered but dropped in favor of plain relative imports, to avoid needing `tsconfig-paths`/`module-alias` at runtime — one less moving part given the 2-day deadline.
 - `logs/` folder is gitignored; only `.gitkeep` is committed.
+
+
